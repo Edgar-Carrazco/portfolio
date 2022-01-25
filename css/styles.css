@@ -96,7 +96,7 @@ footer{padding:50px 0;background-color:#2f3640}
 #projects{padding:50px 15px;border-bottom:1px solid #dcd9d9;text-align:center}
 #projects h2{color:#374054;margin-bottom:50px}
 .project{position:relative;max-width:900px;margin:0 auto 30px auto;overflow:hidden;background:#fff;border-radius:4px;}
-.project-image-con{float:left;height:300px;width:300px; margin:0 auto 30px auto;overflow:hidden;}
+.project-image-con{float:left; height:300px;width:300px; margin:0 auto 0 auto;overflow:hidden; padding-top: 75px;}
 .project-img{width:100%;height:100%}
 .project-info{position:absolute;top:50%;transform:translateY(-50%);margin-left:300px;padding:15px}
 .project-info h3{font-size:1.5em;font-weight:300;color:#374054;margin:0 0 15px 0}
