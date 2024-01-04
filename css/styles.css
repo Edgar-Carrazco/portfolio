@@ -53,17 +53,14 @@ footer{padding:50px 0;background-color:#2f3640}
 .background-alt{background:#f2f2f5}
 #lead{
   position:relative;
-  height:100vh;min-height:500px;
-  max-height:1080px;
   background:url(../images/lead-bg.jpg);
-  background-size:auto;
   padding:15px;overflow:hidden
 }
 #lead-content{position:absolute;z-index:10;top:50%;left:50%;transform:translate(-50%, -50%);text-align:center}
 #lead-content h1,#lead-content h2{margin:0}
 #lead-content h1{color:#fff;font-weight:900;font-size:5em;text-transform:uppercase;letter-spacing:0.05em;line-height:0.9em}
 #lead-content h2{color:#fff;font-weight:500;font-size:2.25em;margin-bottom:15px}
-#lead-overlay{position:absolute;height:100%;width:100%;top:0;right:0;bottom:0;left:0;background:rgba(161,170,176,0.8);z-index:1}
+#lead-overlay{position:absolute;height:50%;width:100%;top:0;right:0;bottom:0;left:0;background:rgba(161,170,176,0.8);z-index:1}
 #lead-down{position:absolute;left:0;right:0;width:100%;text-align:center;z-index:10;bottom:15px;color:#fff}
 #lead-down span{cursor:pointer;display:block;margin:0 auto;width:35px;height:35px;border-radius:50%;border:3px solid #fff;text-align:center}
 #lead-down i{animation:pulsate 1.5s ease;animation-iteration-count:infinite;padding-top:5px}@keyframes pulsate{0%{transform:scale(1, 1)}50%{transform:scale(1.2, 1.2)}100%{transform:scale(1, 1)}}
@@ -128,7 +125,7 @@ footer{padding:50px 0;background-color:#2f3640}
 .optional-section-block ul{padding:0 0 0 15px}@media only screen and (max-width: 750px){#experience-timeline:before,#experience-timeline:after{left:23px}
 .vtimeline-date{width:auto;text-align:left;position:relative;margin-bottom:15px;display:block;margin-left:70px}
 .vtimeline-icon{margin-left:0}
-.vtimeline-content{margin-left:70px}}@media only screen and (max-width: 992px){#lead{height:auto;min-height:auto;max-height:auto;padding:100px 15px}
+.vtimeline-content{margin-left:70px}}@media only screen and (max-width: 992px){#lead{height:auto;min-height:auto;max-height:fit-content;padding:100px 15px}
 #lead-content{position:relative;transform:none;left:auto;top:auto}
 #lead-content h1{font-size:3em}
 #lead-content h2{font-size:1.75em}
@@ -137,9 +134,9 @@ footer{padding:50px 0;background-color:#2f3640}
 #mobile-menu-open,#mobile-menu-close{display:block}
 #menu{height:100%;overflow-y:auto;box-shadow:none;border-radius:0;width:100%;}
 #menu li{display:block;margin-bottom:10px;}
-#lead-content h1{font-size:2em}
-#lead-content h2{font-size:1.3em}
-#lead-content a{padding:10px 20px}
+#lead-content h1{font-size:1em}
+#lead-content h2{font-size:1em}
+#lead-content a{padding:5px 10px}
 #lead-down{display:none}
 .education-block h3,.education-block span{float:none}
 .project-image{display:none}
@@ -147,17 +144,17 @@ footer{padding:50px 0;background-color:#2f3640}
 footer{text-align:center}
 .social{text-align:center}}@media only screen and (max-width: 480px){#lead-content h1{font-size:1.5em}
 #lead-content h2{font-size:1em}
-#lead-content a{font-size:0.9em;padding:5px 10px}}
+#lead-content a{font-size:0.5em;padding:5px 10px}}
 #particles-js {
   position: relative;
   background-color: #74808a;
   background-repeat: no-repeat; 
   background-size: cover;
   background-position: 50% 50%;
-  min-height:500px;
-  max-height: 720px;
+  min-height: 250px;
+  max-height: 350px;
   background:url(../images/lead-bg.jpg);
   background-size:cover;
-  padding:15px;
+  padding:5px;
   overflow:hidden
 }
